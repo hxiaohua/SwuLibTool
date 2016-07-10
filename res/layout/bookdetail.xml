@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#1885DC"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="书目详细信息"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/webView1"
+        android:background="@drawable/bg_alibuybutton"
+        android:onClick="ReturnIndex"
+        android:text="返回续借" />
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="左右滑动查看\n可以放大缩小\n双击屏幕还原"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+</LinearLayout>

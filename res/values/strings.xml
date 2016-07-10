@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">图书续借</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_username">学号</string>
+    <string name="hint_password">密码</string>
+    <string name="login">登陆读取</string>
+    <string name="title">图书续借系统</string>
+    <string name="bookborrow">执行续借</string>
+    <string name="BookDetail">借书详情</string>
+
+</resources>
